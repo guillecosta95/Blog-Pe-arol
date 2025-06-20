@@ -1,0 +1,67 @@
+.body {
+    background-color: yellow;
+    .encabezados {
+    background-color: black; 
+    h1 {
+        text-align: center;
+    font-size: 50px;;
+    font-family:Tagesschrift ;
+    color: yellow;
+    }
+}
+.imagenes{
+    width:170px;
+    height: 130px;
+    float: right;
+}
+.navegador{
+.navbar-brand {
+    color: yellow !important;
+}
+.dropdown-menu a:hover {
+    background-color: red !important;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.bg-body-tertiary {
+    background-color: black !important;
+}
+.nav-item a{
+    color: yellow !important;
+}
+}
+.Inicio {
+    .Inicio h2{
+    background-color: yellow;
+    color: black;
+}
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+.Estadio {
+    .estadio{
+    width: 700px;
+    height: 500px;
+}
+}
+.footer {
+    footer{
+    float: right;
+    color: black;
+}
+    .sitio{
+    color: blue;
+}
+
+}
+}

@@ -1,0 +1,19 @@
+{
+  "name": "blog-pe-arol",
+  "version": "1.0.0",
+  "description": "Las paginas responsive son el index y algunos de mis idolos y el grid se escuentra en campaña libertadores 2011 y campaña libertadores 2024",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guillecosta95/Blog-Pe-arol.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/guillecosta95/Blog-Pe-arol/issues"
+  },
+  "homepage": "https://github.com/guillecosta95/Blog-Pe-arol#readme"
+}

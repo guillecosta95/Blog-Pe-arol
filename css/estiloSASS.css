@@ -1,0 +1,60 @@
+.body {
+  background-color: yellow;
+}
+.body .encabezados {
+  background-color: black;
+}
+.body .encabezados h1 {
+  text-align: center;
+  font-size: 50px;
+  font-family: Tagesschrift;
+  color: yellow;
+}
+.body .imagenes {
+  width: 170px;
+  height: 130px;
+  float: right;
+}
+.body .navegador .navbar-brand {
+  color: yellow !important;
+}
+.body .navegador .dropdown-menu a:hover {
+  background-color: red !important;
+}
+.body .navegador .dropdown-menu {
+  background-color: black;
+}
+.body .navegador .bg-body-tertiary {
+  background-color: black !important;
+}
+.body .navegador .nav-item a {
+  color: yellow !important;
+}
+.body .Inicio .Inicio h2 {
+  background-color: yellow;
+  color: black;
+}
+.body a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+.body p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  color: black;
+  padding: 10px;
+}
+.body .Estadio .estadio {
+  width: 700px;
+  height: 500px;
+}
+.body .footer footer {
+  float: right;
+  color: black;
+}
+.body .footer .sitio {
+  color: blue;
+}
+
+/*# sourceMappingURL=estiloSASS.css.map */
