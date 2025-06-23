@@ -1,0 +1,95 @@
+body {
+    background-color: yellow;
+}
+h1 {
+    text-align: center;
+    font-size: 50px;;
+    font-family:Tagesschrift ;
+    color: yellow;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: black;
+    padding: 10px;
+}
+#Inicio .Inicio h2{
+    background-color: yellow;
+    color: black;
+}
+
+.navegador{
+.container-fluid a:hover {
+    color: white !important;
+}
+.navbar-brand {
+    color: yellow !important;
+}
+.dropdown-menu a:hover {
+    background-color: red !important;
+}
+.dropdown-menu {
+    background-color: black;
+}
+.bg-body-tertiary {
+    background-color: black !important;
+}
+.nav-item a{
+    color: yellow !important;
+}
+}
+
+.jugadores2011{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    .plantel2011 img{
+width: 100%;
+height: 100%;
+border: 5px solid black;
+}
+.plantel2011 p{
+position: absolute;
+top: auto;
+color: greenyellow;
+}
+
+}
+
+.jugadores2024{
+ display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    position: relative;
+    .plantel2024 img{
+width: 100%;
+height: 100%;
+border: 5px solid black;
+}
+.plantel2024 p{
+position: absolute;
+top: auto;
+color: greenyellow;
+}
+}
+.carousel-item{
+.carousel-caption p {
+    color: yellow !important;
+    background-color: black;
+}
+.carousel-caption h3 {
+    background-color: black ;
+    color: yellow;
+
+}
+
+}
+.formularios  {
+margin: 10px;
+padding: 10px;
+}
+

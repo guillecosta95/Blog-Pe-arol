@@ -1,60 +1,196 @@
-.body {
+@charset "UTF-8";
+body {
   background-color: yellow;
 }
-.body .encabezados {
-  background-color: black;
-}
-.body .encabezados h1 {
+
+h1 {
   text-align: center;
   font-size: 50px;
   font-family: Tagesschrift;
   color: yellow;
 }
-.body .imagenes {
-  width: 170px;
-  height: 130px;
-  float: right;
-}
-.body .navegador .navbar-brand {
-  color: yellow !important;
-}
-.body .navegador .dropdown-menu a:hover {
-  background-color: red !important;
-}
-.body .navegador .dropdown-menu {
-  background-color: black;
-}
-.body .navegador .bg-body-tertiary {
-  background-color: black !important;
-}
-.body .navegador .nav-item a {
-  color: yellow !important;
-}
-.body .Inicio .Inicio h2 {
-  background-color: yellow;
-  color: black;
-}
-.body a {
+
+a {
   text-decoration: none;
   color: black;
   font-size: 20px;
 }
-.body p {
+
+p {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
   color: black;
   padding: 10px;
 }
-.body .Estadio .estadio {
-  width: 700px;
-  height: 500px;
+
+#Inicio .Inicio h2 {
+  background-color: yellow;
+  color: black;
 }
-.body .footer footer {
+
+.navegador .container-fluid a:hover {
+  color: white !important;
+}
+.navegador .navbar-brand {
+  color: yellow !important;
+}
+.navegador .dropdown-menu a:hover {
+  background-color: red !important;
+}
+.navegador .dropdown-menu {
+  background-color: black;
+}
+.navegador .bg-body-tertiary {
+  background-color: black !important;
+}
+.navegador .nav-item a {
+  color: yellow !important;
+}
+
+.jugadores2011 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+}
+.jugadores2011 .plantel2011 img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid black;
+}
+.jugadores2011 .plantel2011 p {
+  position: absolute;
+  top: auto;
+  color: greenyellow;
+}
+
+.jugadores2024 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+}
+.jugadores2024 .plantel2024 img {
+  width: 100%;
+  height: 100%;
+  border: 5px solid black;
+}
+.jugadores2024 .plantel2024 p {
+  position: absolute;
+  top: auto;
+  color: greenyellow;
+}
+
+.carousel-item .carousel-caption p {
+  color: yellow !important;
+  background-color: black;
+}
+.carousel-item .carousel-caption h3 {
+  background-color: black;
+  color: yellow;
+}
+
+.formularios {
+  margin: 10px;
+  padding: 10px;
+}
+
+.encabezados {
+  background-color: black;
+}
+
+#Antonio ¨ {
+  display: flex;
+  margin: 10px;
+}
+#Antonio ¨ #Antonio div {
+  display: flex;
+  display: inline-block;
+  width: 50%;
+}
+
+#Dario article {
+  display: flex;
+  display: inline-block;
+  width: 50%;
+}
+
+footer {
   float: right;
   color: black;
 }
-.body .footer .sitio {
+footer .sitio {
   color: blue;
+}
+
+.imagenes {
+  width: 170px;
+  height: 130px;
+  float: right;
+}
+
+#Estadio .estadio {
+  width: 700px;
+  height: 500px;
+}
+
+.primerafoto {
+  text-align: center;
+}
+
+.primerafoto img {
+  width: 350px;
+  height: 250px;
+}
+
+.fotosidolos {
+  width: 200px;
+  height: 150px;
+}
+
+@media screen and (max-width: 895px) {
+  .jugadores2011 .plantel2011 p {
+    font-size: 10px;
+  }
+  .jugadores2024 .plantel2024 p {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .estadio {
+    width: 450px;
+    height: 250px;
+  }
+}
+@media screen and (max-width: 574px) {
+  #uruguayo2024 iframe {
+    width: 300px;
+    height: 200px;
+  }
+  #Juan iframe {
+    width: 250px;
+    height: 100px;
+  }
+}
+@media screen and (max-width: 470px) {
+  .estadio {
+    width: 150px;
+    height: 100px;
+  }
+  .jugadores2011 .plantel2011 p {
+    font-size: 5px;
+  }
+  .jugadores2024 .plantel2024 p {
+    font-size: 5px;
+  }
+}
+@media screen and (max-width: 376px) {
+  .navegacion ul {
+    padding: 0;
+    margin: 0;
+  }
+  .imagenes {
+    width: 100px;
+    height: 50px;
+  }
 }
 
 /*# sourceMappingURL=estiloSASS.css.map */
