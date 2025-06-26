@@ -1,13 +1,13 @@
 @charset "UTF-8";
 body {
-  background-color: yellow;
+  background-color: Yellow;
 }
 
 h1 {
   text-align: center;
   font-size: 50px;
   font-family: Tagesschrift;
-  color: yellow;
+  color: Yellow;
 }
 
 a {
@@ -24,7 +24,7 @@ p {
 }
 
 #Inicio .Inicio h2 {
-  background-color: yellow;
+  background-color: Yellow;
   color: black;
 }
 
@@ -32,7 +32,7 @@ p {
   color: white !important;
 }
 .navegador .navbar-brand {
-  color: yellow !important;
+  color: Yellow !important;
 }
 .navegador .dropdown-menu a:hover {
   background-color: red !important;
@@ -44,7 +44,7 @@ p {
   background-color: black !important;
 }
 .navegador .nav-item a {
-  color: yellow !important;
+  color: Yellow !important;
 }
 
 .jugadores2011 {
@@ -80,12 +80,12 @@ p {
 }
 
 .carousel-item .carousel-caption p {
-  color: yellow !important;
+  color: Yellow !important;
   background-color: black;
 }
 .carousel-item .carousel-caption h3 {
   background-color: black;
-  color: yellow;
+  color: Yellow;
 }
 
 .formularios {
@@ -155,7 +155,7 @@ footer .sitio {
   }
 }
 @media screen and (max-width: 700px) {
-  .estadio {
+  #Estadio .estadio {
     width: 450px;
     height: 250px;
   }
@@ -171,7 +171,7 @@ footer .sitio {
   }
 }
 @media screen and (max-width: 470px) {
-  .estadio {
+  #Estadio .estadio {
     width: 150px;
     height: 100px;
   }
@@ -190,6 +190,10 @@ footer .sitio {
   .imagenes {
     width: 100px;
     height: 50px;
+  }
+  #Estadio .estadio {
+    width: 300px;
+    height: 150px;
   }
 }
 

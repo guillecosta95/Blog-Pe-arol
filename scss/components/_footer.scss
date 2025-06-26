@@ -1,9 +1,9 @@
 
 footer{
     float: right;
-    color: black;
+    color:$color-primario;
     .sitio{
-    color: blue;
+    color:nth($colores, 4);
 }
 
 }

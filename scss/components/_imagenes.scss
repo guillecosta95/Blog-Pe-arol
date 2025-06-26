@@ -10,7 +10,7 @@
 }
 }
 .primerafoto{
-    text-align: center;
+  @include text-aling(center);
 }
 .primerafoto img{
     width: 350px;

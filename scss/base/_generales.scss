@@ -1,46 +1,51 @@
 body {
-    background-color: yellow;
+    background-color: $color-secundario;
 }
 h1 {
-    text-align: center;
-    font-size: 50px;;
+    @include text-aling(center);
+    font-size: 50px;
     font-family:Tagesschrift ;
-    color: yellow;
+    color: $color-secundario;
 }
 a{
     text-decoration: none;
-    color: black;
+    color: $color-primario;
     font-size: 20px;
 }
 p {
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
-    color: black;
+    color: $color-primario;
     padding: 10px;
 }
 #Inicio .Inicio h2{
-    background-color: yellow;
-    color: black;
+    background-color: $color-secundario;
+    color: $color-primario;
 }
 
 .navegador{
-.container-fluid a:hover {
-    color: white !important;
+.container-fluid a {
+    &:hover {
+    color:nth($colores, 1) !important;
+    }
 }
 .navbar-brand {
-    color: yellow !important;
+    color: $color-secundario !important;
 }
-.dropdown-menu a:hover {
-    background-color: red !important;
+.dropdown-menu a {
+    &:hover {
+    background-color:nth($colores, 2 ) !important;
+    }
+
 }
 .dropdown-menu {
-    background-color: black;
+    background-color: $color-primario;
 }
 .bg-body-tertiary {
-    background-color: black !important;
+    background-color:$color-primario !important;
 }
 .nav-item a{
-    color: yellow !important;
+    color: $color-secundario !important;
 }
 }
 
@@ -51,12 +56,12 @@ p {
     .plantel2011 img{
 width: 100%;
 height: 100%;
-border: 5px solid black;
+border: 5px solid $color-primario;
 }
 .plantel2011 p{
 position: absolute;
 top: auto;
-color: greenyellow;
+color:nth($colores, 3 );
 }
 
 }
@@ -68,22 +73,22 @@ color: greenyellow;
     .plantel2024 img{
 width: 100%;
 height: 100%;
-border: 5px solid black;
+border: 5px solid $color-primario;
 }
 .plantel2024 p{
 position: absolute;
 top: auto;
-color: greenyellow;
+color:nth($colores, 3);
 }
 }
 .carousel-item{
 .carousel-caption p {
-    color: yellow !important;
-    background-color: black;
+    color: $color-secundario !important;
+    background-color: $color-primario;
 }
 .carousel-caption h3 {
-    background-color: black ;
-    color: yellow;
+    background-color:$color-primario ;
+    color: $color-secundario;
 
 }
 
