@@ -93,8 +93,21 @@ p {
   padding: 10px;
 }
 
+@keyframes titulo {
+  from {
+    margin-left: 100%;
+    width: 100%;
+  }
+  to {
+    margin: 0;
+    width: 100%;
+  }
+}
 .encabezados {
   background-color: black;
+  animation-name: titulo;
+  animation-duration: 1s;
+  animation-delay: 0;
 }
 
 #Antonio ¨ {
@@ -125,6 +138,10 @@ footer .sitio {
   width: 170px;
   height: 130px;
   float: right;
+  transition: 1s;
+}
+.imagenes:hover {
+  transform: scale(1.3);
 }
 
 #Estadio .estadio {

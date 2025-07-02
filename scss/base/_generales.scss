@@ -98,3 +98,13 @@ margin: 10px;
 padding: 10px;
 }
 
+@keyframes titulo {
+    from {
+    margin-left: 100%;
+    width: 100%;
+    }
+    to {
+    margin: 0;
+    width: 100%;
+    }
+}
