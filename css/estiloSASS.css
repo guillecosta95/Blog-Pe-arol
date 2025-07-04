@@ -85,10 +85,6 @@ p {
   padding: 20px;
 }
 
-.carousel-slide {
-  margin: 20px;
-}
-
 .carousel-item .carousel-caption p {
   color: Yellow !important;
   background-color: black;
