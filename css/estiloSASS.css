@@ -1,50 +1,69 @@
 body {
-  background-color: Yellow;
+  background-color: black;
 }
 
 h1 {
   text-align: center;
   font-size: 50px;
   font-family: Tagesschrift;
-  color: Yellow;
+  color: black;
+}
+
+h2 {
+  margin: 10px;
+  padding: 10px;
+  color: yellow;
+}
+
+h3 {
+  margin: 10px;
+  padding: 10px;
+  color: yellow;
+}
+
+h4 {
+  margin: 10px;
+  padding: 10px;
+  color: yellow;
 }
 
 a {
   text-decoration: none;
-  color: black;
+  color: yellow;
   font-size: 20px;
 }
 
 p {
   font-family: "Times New Roman", Times, serif;
   font-size: 20px;
-  color: black;
+  color: yellow;
   padding: 10px;
   margin: 20px;
 }
 
 #Inicio .Inicio h2 {
-  background-color: Yellow;
-  color: black;
+  background-color: black;
+  color: yellow;
 }
 
 .navegador .container-fluid a:hover {
-  color: white !important;
+  color: violet !important;
+  background-color: red;
 }
 .navegador .navbar-brand {
-  color: Yellow !important;
+  color: black !important;
 }
 .navegador .dropdown-menu a:hover {
   background-color: red !important;
 }
 .navegador .dropdown-menu {
-  background-color: black;
+  background-color: yellow;
 }
 .navegador .bg-body-tertiary {
-  background-color: black !important;
+  background-color: yellow !important;
 }
 .navegador .nav-item a {
-  color: Yellow !important;
+  color: black !important;
 }
 
 .jugadores2011 {
@@ -56,7 +75,7 @@ p {
 .jugadores2011 .plantel2011 img {
   width: 100%;
   height: 100%;
-  border: 5px solid black;
+  border: 5px solid yellow;
 }
 .jugadores2011 .plantel2011 p {
   position: absolute;
@@ -72,7 +91,7 @@ p {
 .jugadores2024 .plantel2024 img {
   width: 100%;
   height: 100%;
-  border: 5px solid black;
+  border: 5px solid yellow;
   margin: 30px;
 }
 .jugadores2024 .plantel2024 p {
@@ -86,17 +105,18 @@ p {
 }
 
 .carousel-item .carousel-caption p {
-  color: Yellow !important;
-  background-color: black;
+  color: black !important;
+  background-color: yellow;
 }
 .carousel-item .carousel-caption h3 {
-  background-color: black;
-  color: Yellow;
+  background-color: yellow;
+  color: black;
 }
 
 .formularios {
   margin: 20px;
   padding: 10px;
+  color: yellow;
 }
 
 @keyframes titulo {
@@ -109,21 +129,6 @@ p {
     width: 100%;
   }
 }
-h2 {
-  margin: 10px;
-  padding: 10px;
-}
-
-h3 {
-  margin: 10px;
-  padding: 10px;
-}
-
-h4 {
-  margin: 10px;
-  padding: 10px;
-}
-
 #uruguayo2024 .videoleo {
   margin: 20px;
 }
@@ -133,7 +138,7 @@ h4 {
 }
 
 .encabezados {
-  background-color: black;
+  background-color: yellow;
   animation-name: titulo;
   animation-duration: 1s;
   animation-delay: 0;
@@ -153,7 +158,7 @@ h4 {
 
 footer {
   float: right;
-  color: black;
+  color: yellow;
 }
 footer .sitio {
   color: blue;

@@ -1,8 +1,8 @@
-$color-primario :black;
-$color-secundario : Yellow;
+$color-primario :yellow;
+$color-secundario : black;
 
 
-$colores: white, red, greenyellow, blue;
+$colores: violet, red, greenyellow, blue;
 
 @mixin text-aling($aling) {
     text-align: $aling;

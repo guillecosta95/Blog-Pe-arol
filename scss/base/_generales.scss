@@ -7,6 +7,23 @@ h1 {
     font-family:Tagesschrift ;
     color: $color-secundario;
 }
+h2 {
+    margin: 10px;
+    padding: 10px;
+    color: $color-primario;
+}
+
+h3 {
+    margin: 10px;
+    padding: 10px;
+    color: $color-primario;
+}
+h4 {
+    margin: 10px;
+    padding: 10px;
+    color: $color-primario;
+}
+
 a{
     text-decoration: none;
     color: $color-primario;
@@ -28,6 +45,7 @@ p {
 .container-fluid a {
     &:hover {
     color:nth($colores, 1) !important;
+    background-color: nth($colores, 2);
     }
 }
 .navbar-brand {
@@ -104,6 +122,7 @@ color:nth($colores, 3);
 .formularios  {
 margin: 20px;
 padding: 10px;
+color: $color-primario;
 }
 
 @keyframes titulo {
@@ -116,21 +135,6 @@ padding: 10px;
     width: 100%;
     }
 }
-
-h2 {
-    margin: 10px;
-    padding: 10px;
-}
-
-h3 {
-    margin: 10px;
-    padding: 10px;
-}
-h4 {
-    margin: 10px;
-    padding: 10px;
-}
-
 #uruguayo2024 .videoleo{
     margin: 20px;
 }
