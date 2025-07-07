@@ -1,20 +1,49 @@
 @media screen and (max-width: 895px) {
-    .jugadores2011  .plantel2011 p{
-            font-size: 10px;
-        }
-    .jugadores2024 .plantel2024 p {
+    .jugadores2024{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 300px;
+        .jugadores2024 .plantel2024 p {
         font-size: 10px;
     }
+
+    }
+    .jugadores2011{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-auto-rows: 300px;
+        .jugadores2011 .plantel2011 p {
+        font-size: 10px;
+    }
+
+    }
+
     
-    
-} 
-@media screen and (max-width: 700px) {
-   #Estadio .estadio{
-    width: 450px;
-    height: 250px;
-}
+
 
 }
+
+@media screen and (max-width: 700px) {
+    #Estadio .estadio {
+        width: 450px;
+        height: 250px;
+    }
+    .jugadores2024{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 150px;
+
+    }
+    .jugadores2011{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 150px;
+
+    }
+    
+
+}
+
 @media screen and (max-width: 574px) {
 
     #uruguayo2024 iframe {
@@ -22,22 +51,28 @@
         height: 200px;
 
     }
+
     #Juan iframe {
         width: 250px;
         height: 100px;
     }
+
 }
 
 @media screen and (max-width: 470px) {
-   #Estadio .estadio {
+    #Estadio .estadio {
         width: 150px;
         height: 100px;
     }
-    .jugadores2011  .plantel2011 p{
-            font-size: 5px;
-        }
-    .jugadores2024 .plantel2024 p{
+    .jugadores2011 p {
         font-size: 5px;
+    }
+    .jugadores2024 p {
+        font-size: 5px;
+    }
+    #Juan iframe {
+        width: 170px;
+        height: 100px;
     }
 }
 
@@ -47,15 +82,24 @@
         padding: 0;
         margin: 0;
     }
-    
-    .imagenes{
-    width: 100px;
-    height: 50px;
-    
-} 
-#Estadio .estadio{
-    width: 300px;
-    height: 150px;
-}
 
+    .imagenes {
+        width: 100px;
+        height: 50px;
+
+    }
+
+    #Estadio .estadio {
+        width: 300px;
+        height: 150px;
+    }
+    #Juan iframe {
+        width: 100px;
+        height: 100px;
+    }
+    article .fotosidolos {
+        width: 100px;
+        height: 100px;
+    }
+    
 }

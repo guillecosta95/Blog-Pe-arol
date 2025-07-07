@@ -1,11 +1,17 @@
 #Antonio article{
     display: flex;
-    display: inline-block;
-    width: 50%;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #Dario article{
     display: flex;
-    display: inline-block;
-    width: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Juan article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
