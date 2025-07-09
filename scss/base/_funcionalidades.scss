@@ -2,7 +2,7 @@ $color-primario :yellow;
 $color-secundario : black;
 
 
-$colores: violet, red, greenyellow, blue;
+$colores: red, greenyellow, blue, white, grey;
 
 @mixin text-aling($aling) {
     text-align: $aling;

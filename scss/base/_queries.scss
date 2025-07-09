@@ -1,26 +1,66 @@
 @media screen and (max-width: 895px) {
-    .jugadores2024{
+    .jugadores2024 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: 300px;
         .jugadores2024 .plantel2024 p {
-        font-size: 10px;
+            font-size: 10px;
+        }
     }
 
-    }
-    .jugadores2011{
+    .jugadores2011 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-auto-rows: 300px;
         .jugadores2011 .plantel2011 p {
-        font-size: 10px;
+            font-size: 10px;
+        }
     }
+}
 
+@media (max-width: 860px) {
+    .intermedio {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        .intermediocampeon {
+            max-width: 90%;
+        }
+        .tablaresultados {
+            width: 100%;
+            table {
+                width: 100%;
+                gap: 0.5rem;
+            }
+            tr {
+                flex-direction: row;
+                flex-wrap: wrap;
+                gap: 0.5rem;
+            }
+            td {
+                font-size: 0.9rem;
+            }
+            .escudo {
+                width: 40px;
+            }
+            .marcador {
+                font-size: 1rem;
+            }
+        }
     }
-
-    
-
-
+    .noticiasentrada article {
+        img {
+            width: 150px;
+            height: 100px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    #Estadio .estadio {
+        width: 500px;
+        height: 400px;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -28,34 +68,59 @@
         width: 450px;
         height: 250px;
     }
-    .jugadores2024{
+    .jugadores2024 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 150px;
-
     }
-    .jugadores2011{
+    .jugadores2011 {
         display: grid;
         grid-template-columns: 1fr 1fr;
         grid-auto-rows: 150px;
-
     }
     
-
 }
 
-@media screen and (max-width: 574px) {
 
-    #uruguayo2024 iframe {
-        width: 300px;
-        height: 200px;
+@media screen and (max-width: 574px) {
+    #Noticias .noticiaspeñarol {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 10px;
 
     }
 
-    #Juan iframe {
-        width: 250px;
+    .noticiasentrada {
+        margin: 10px;
+        padding: 10px;
+
+        article {
+            img {
+                width: 100px;
+                height: 50px;
+            }
+
+            p {
+                font-size: 10px;
+                margin: 10px;
+            }
+        }
+    }
+
+    #Estadio .estadio {
+        width: 200px;
+        height: 150px;
+    }
+    #uruguayo2024 article iframe {
+        width: 170px;
         height: 100px;
     }
+    
+    #Juan article iframe {
+        width: 300px;
+        height: 150px;
+    }
+
 
 }
 
@@ -64,13 +129,16 @@
         width: 150px;
         height: 100px;
     }
+
     .jugadores2011 p {
         font-size: 5px;
     }
+
     .jugadores2024 p {
         font-size: 5px;
     }
-    #Juan iframe {
+
+    #Juan article iframe {
         width: 170px;
         height: 100px;
     }
@@ -93,13 +161,80 @@
         width: 300px;
         height: 150px;
     }
-    #Juan iframe {
+
+    #Juan article iframe {
         width: 100px;
         height: 100px;
     }
+
     article .fotosidolos {
         width: 100px;
         height: 100px;
     }
-    
+
+    .noticiasentrada article {
+
+        img {
+            width: 30px;
+            height: 20px;
+        }
+
+        p {
+            font-size: 10px;
+        }
+    }
+    .intermedio {
+        flex-direction: column;
+        align-items: center;
+
+        .intermediocampeon {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .tablaresultados {
+            width: 100%;
+            padding: 0.5rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.3rem;
+        }
+
+        tr {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 0.3rem;
+            padding: 0.3rem;
+            border-width: 1px;
+        }
+
+        td {
+            font-size: 0.8rem;
+            padding: 0.2rem;
+        }
+
+        .escudo {
+            width: 30px;
+        }
+
+        .marcador {
+            font-size: 0.9rem;
+            padding: 0 0.3rem;
+        }
+    }
+
+    #Estadio .estadio {
+        width: 259px;
+        height: 150px;
+    }
+
+    .primerafoto img {
+        width: 250px;
+        height: 150px;
+    }
+    #uruguayo2024 article iframe {
+        width: 150px;
+        height: 100px;
+    }
 }
