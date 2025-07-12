@@ -1,46 +1,43 @@
-.encabezados{
+.encabezados {
     h1 {
-    background-color: $color-primario;
-    animation-name: titulo;
-    animation-duration: 1s;
-    animation-delay: 0;
+        background-color: $color-primario;
+        animation-name: titulo;
+        animation-duration: 1s;
+        animation-delay: 0;
     }
+
     .navegador {
         .navbar-brand {
-        color: $color-secundario !important;
-    }
-
-    .dropdown-menu a {
-        &:hover {
-            background-color: nth($colores, 1) !important;
+            color: $color-secundario !important;
         }
 
-    }
+        .dropdown-menu a {
+            &:hover {
+                background-color: nth($colores, 1) !important;
+            }
 
-    .dropdown-menu {
-        background-color: $color-primario;
-    }
-
-    .bg-body-tertiary {
-        background-color: $color-primario !important;
-    }
-
-    .nav-item a {
-        color: $color-secundario !important;
-    }
-    .container-fluid a {
-    &:hover {
-            color: nth($colores, 4) !important;
-            background-color: nth($colores, 1);
         }
-    
 
-    
-}
-} 
-}
-    
-    
-    
+        .dropdown-menu {
+            background-color: $color-primario;
+        }
 
-   
+        .bg-body-tertiary {
+            background-color: $color-primario !important;
+        }
+
+        .nav-item a {
+            color: $color-secundario !important;
+        }
+
+        .container-fluid a {
+            &:hover {
+                color: nth($colores, 4) !important;
+                background-color: nth($colores, 1);
+            }
+
+
+
+        }
+    }
+}

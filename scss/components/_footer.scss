@@ -1,9 +1,10 @@
-
-footer{
+footer {
     float: right;
-    color:$color-primario;
-    .sitio{
-    color:nth($colores, 4);
-}
+    color: $color-primario;
+    margin: 20px;
+
+    .sitio {
+        color: nth($colores, 4);
+    }
 
 }

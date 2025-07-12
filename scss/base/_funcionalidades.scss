@@ -4,7 +4,8 @@ $color-secundario : black;
 
 $colores: red, greenyellow, blue, white, grey;
 
-@mixin text-aling($aling) {
-    text-align: $aling;
+@mixin flex ($flex,$justify,$aling) {
+    display: $flex;
+    justify-content: $justify;
+    align-items: $aling;
 }
-

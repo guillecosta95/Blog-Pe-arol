@@ -1,34 +1,148 @@
-#Antonio article {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+#antonio article {
+
+    @include flex (flex, space-around,center);
+    
 }
 
-#Dario article {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+#dario article {
+    @include flex (flex,space-around,center)
+    
 }
 
-#Noticias .noticiaspeñarol {
+#noticias .noticiaspeñarol {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+    margin: 20px;
+
     .noticiassobrepeñarol {
-        border: 5px solid nth($colores ,1 );
-        background-color: nth($colores ,4 );
+        border: 5px solid nth($colores , 1);
+        background-color: nth($colores , 4);
+
         p {
             color: $color-secundario;
         }
+
         h3 {
             color: $color-secundario;
         }
+
         img {
 
             width: 100%;
             height: 200px;
-            object-fit: cover;   
-}
-}    
+            object-fit: cover;
+        }
+    }
 }
 
+.peñarol2011 {
+    .jugadores2011 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+    gap: 20px;
+
+    .plantel2011 {
+        border: 5px solid nth($colores , 1);
+        background-color: nth($colores , 4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        p {
+            color: $color-secundario;
+            text-align: center;
+            width: 100%;
+        }
+
+        img {
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+}
+
+.peñarol2024 {
+    .jugadores2024 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 20px;
+    gap: 20px;
+
+    .plantel2024 {
+        border: 5px solid nth($colores , 1);
+        background-color: nth($colores , 4);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+
+
+        p {
+            color: $color-secundario;
+            text-align: center;
+            width: 100%;
+        }
+
+        img {
+
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+}
+}
+
+.lib2024 article {
+    padding: 20px;
+}
+
+#uruguayo2024 {
+    display: flex;
+    flex-direction: column;
+
+    .videoleo {
+        @include flex (flex,center,center);
+        margin: 20px;
+    }
+}
+
+
+#juan {
+    display: flex;
+    flex-direction: column;
+
+    .videojuan {
+        margin: 20px;
+        @include flex(flex,center,center);
+    }
+}
+
+#inicio {
+    .barraamsterdam3 {
+        @include flex (flex,center,center);
+        width: 100%;
+        height: 100%;
+    }
+
+    article .barra {
+        @include flex (flex, center,center);
+
+
+        img {
+
+            width: 500px;
+            height: 300px;
+            padding: 10px;
+        }
+
+    }
+
+}
