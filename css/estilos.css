@@ -1,3 +1,5 @@
+@charset "UTF-8";
+
 body {
     background-color: black;
 }
@@ -41,10 +43,16 @@ p {
     margin: 20px;
 }
 
+.volver {
+    margin: 20px;
+    padding: 0px;
+}
+
 .intermedio {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 20px;
 }
 
 .tablaresultados {
@@ -61,16 +69,16 @@ p {
 
 .tablaresultados tr {
     display: flex;
-    gap: 1rem;
     justify-content: center;
     align-items: center;
+    gap: 1rem;
     border: 2px solid grey;
 }
 
 .tablaresultados td {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
     color: yellow;
     font-weight: bold;
     font-size: 1rem;
@@ -102,15 +110,126 @@ p {
     padding: 30px;
 }
 
+.noticiasentrada article img {
+    width: 250px;
+    height: 150px;
+}
+
 .boton {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-#Inicio h2 {
-    background-color: black;
+.boton button {
+    background-color: white;
+    border-color: red;
+}
+
+.boton button a {
+    color: black;
+}
+
+.carousel-caption p {
+    color: black !important;
+    background-color: yellow;
+}
+
+.carousel-caption h3 {
+    background-color: yellow;
+    color: black;
+}
+
+.formularios {
+    margin: 20px;
+    padding: 10px;
     color: yellow;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+@keyframes titulo {
+    from {
+        margin-left: 100%;
+        width: 100%;
+    }
+
+    to {
+        margin: 0;
+        width: 100%;
+    }
+}
+
+.encabezados h1 {
+    background-color: yellow;
+    animation-name: titulo;
+    animation-duration: 1s;
+    animation-delay: 0;
+}
+
+.navegador .navbar-brand {
+    color: black !important;
+}
+
+.navegador .dropdown-menu a:hover {
+    background-color: red !important;
+}
+
+.navegador .dropdown-menu {
+    background-color: yellow;
+}
+
+.navegador .bg-body-tertiary {
+    background-color: yellow !important;
+}
+
+.navegador .nav-item a {
+    color: black !important;
+}
+
+.navegador .container-fluid a:hover {
+    color: white !important;
+    background-color: red;
+}
+
+#antonio article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#dario article {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.noticiaspeñarol {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin: 20px;
+}
+
+.noticiassobrepeñarol {
+    border: 5px solid red;
+    background-color: white;
+}
+
+.noticiassobrepeñarol p {
+    color: black;
+}
+
+.noticiassobrepeñarol h3 {
+    color: black;
+}
+
+.noticiassobrepeñarol img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
 }
 
 .jugadores2011 {
@@ -171,121 +290,57 @@ p {
     padding: 20px;
 }
 
-.carousel-caption p {
-    color: black !important;
-    background-color: yellow;
-}
-
-.carousel-caption h3 {
-    background-color: yellow;
-    color: black;
-}
-
-.formularios {
-    margin: 20px;
-    padding: 10px;
-    color: yellow;
+#uruguayo2024 {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: flex-start;
 }
 
-@keyframes titulo {
-    from {
-        margin-left: 100%;
-        width: 100%;
-    }
-
-    to {
-        margin: 0;
-        width: 100%;
-    }
-}
-
-#uruguayo2024 .videoleo {
+.videoleo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 20px;
 }
 
-#Juan .videojuan {
+#juan {
+    display: flex;
+    flex-direction: column;
+}
+
+.videojuan {
     margin: 20px;
-}
-
-.encabezados h1 {
-    background-color: yellow;
-    animation-name: titulo;
-    animation-duration: 1s;
-    animation-delay: 0;
-}
-
-.navbar-brand {
-    color: black !important;
-}
-
-.dropdown-menu a:hover {
-    background-color: red !important;
-}
-
-.dropdown-menu {
-    background-color: yellow;
-}
-
-.bg-body-tertiary {
-    background-color: yellow !important;
-}
-
-.nav-item a {
-    color: black !important;
-}
-
-.container-fluid a:hover {
-    color: white !important;
-    background-color: red;
-}
-
-#Antonio article {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
 }
 
-#Dario article {
+.barraamsterdam3 {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-}
-
-.noticiaspeñarol {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-}
-
-.noticiassobrepeñarol {
-    border: 5px solid red;
-    background-color: white;
-}
-
-.noticiassobrepeñarol p {
-    color: black;
-}
-
-.noticiassobrepeñarol h3 {
-    color: black;
-}
-
-.noticiassobrepeñarol img {
     width: 100%;
-    height: 200px;
-    object-fit: cover;
+    height: 100%;
+}
+
+.barra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.barra img {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
 }
 
 footer {
     float: right;
     color: yellow;
+    margin: 20px;
 }
 
-footer .sitio {
+.sitio {
     color: white;
 }
 
@@ -300,7 +355,13 @@ footer .sitio {
     transform: scale(1.3);
 }
 
-#Estadio .estadio {
+.estadiosiglo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.estadiosiglo img {
     width: 700px;
     height: 500px;
     margin: 20px;
@@ -320,30 +381,54 @@ footer .sitio {
     height: 150px;
 }
 
-.noticiasentrada article img {
-    width: 250px;
-    height: 150px;
+@media screen and (max-width: 1200px) {
+    .barraamsterdam3 img {
+        max-width: 100%;
+    }
+
+    .barra {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .barra img {
+        max-width: 90%;
+        height: auto;
+        padding: 10px;
+    }
 }
 
 @media screen and (max-width: 895px) {
-    .jugadores2024 {
+    .peñarol2024 .jugadores2024 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 300px;
     }
 
-    .jugadores2024 .plantel2024 p {
-        font-size: 10px;
+    .peñarol2024 .jugadores2024 .plantel2024 {
+        text-align: center;
     }
 
-    .jugadores2011 {
+    .peñarol2024 .jugadores2024 .plantel2024 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .peñarol2011 .jugadores2011 {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-auto-rows: 300px;
     }
 
-    .jugadores2011 .plantel2011 p {
-        font-size: 10px;
+    .peñarol2011 .jugadores2011 .plantel2011 {
+        text-align: center;
+    }
+
+    .peñarol2011 .jugadores2011 .plantel2011 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
@@ -394,33 +479,52 @@ footer .sitio {
         font-size: 20px;
     }
 
-    #Estadio .estadio {
+    #estadio .estadiosiglo img {
         width: 500px;
         height: 400px;
     }
 }
 
 @media screen and (max-width: 700px) {
-    #Estadio .estadio {
+    #estadio .estadiosiglo img {
         width: 450px;
         height: 250px;
     }
 
-    .jugadores2024 {
+    .peñarol2024 .jugadores2024 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 150px;
     }
 
-    .jugadores2011 {
+    .peñarol2024 .jugadores2024 .plantel2024 {
+        text-align: center;
+    }
+
+    .peñarol2024 .jugadores2024 .plantel2024 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .peñarol2011 .jugadores2011 {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        grid-auto-rows: 150px;
+        grid-auto-rows: auto;
+    }
+
+    .peñarol2011 .jugadores2011 .plantel2011 {
+        text-align: center;
+    }
+
+    .peñarol2011 .jugadores2011 .plantel2011 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
 @media screen and (max-width: 574px) {
-    #Noticias .noticiaspeñarol {
+    #noticias .noticiaspeñarol {
         display: grid;
         grid-template-columns: 1fr;
         gap: 10px;
@@ -441,7 +545,7 @@ footer .sitio {
         margin: 10px;
     }
 
-    #Estadio .estadio {
+    #estadio .estadiosiglo img {
         width: 200px;
         height: 150px;
     }
@@ -451,29 +555,65 @@ footer .sitio {
         height: 100px;
     }
 
-    #Juan article iframe {
+    #juan article iframe {
         width: 300px;
         height: 150px;
     }
 }
 
 @media screen and (max-width: 470px) {
-    #Estadio .estadio {
+    #estadio .estadiosiglo img {
         width: 150px;
         height: 100px;
     }
 
-    .jugadores2011 p {
-        font-size: 5px;
-    }
-
-    .jugadores2024 p {
-        font-size: 5px;
-    }
-
-    #Juan article iframe {
+    #juan article iframe {
         width: 170px;
         height: 100px;
+    }
+
+    .barraamsterdam3 img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .barra img {
+        width: 200px;
+        height: 100px;
+    }
+
+    .peñarol2024 .jugadores2024 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .peñarol2024 .jugadores2024 .plantel2024 {
+        text-align: center;
+    }
+
+    .peñarol2024 .jugadores2024 .plantel2024 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .peñarol2011 .jugadores2011 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .peñarol2011 .jugadores2011 .plantel2011 {
+        text-align: center;
+    }
+
+    .peñarol2011 .jugadores2011 .plantel2011 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
 }
 
@@ -488,12 +628,12 @@ footer .sitio {
         height: 50px;
     }
 
-    #Estadio .estadio {
+    #estadio .estadiosiglo {
         width: 300px;
         height: 150px;
     }
 
-    #Juan article iframe {
+    #juan article iframe {
         width: 100px;
         height: 100px;
     }
@@ -503,13 +643,9 @@ footer .sitio {
         height: 100px;
     }
 
-    .noticiasentrada article img {
-        width: 30px;
-        height: 20px;
-    }
-
-    .noticiasentrada article p {
-        font-size: 10px;
+    .noticiasentrada {
+        display: flex;
+        flex-direction: column;
     }
 
     .intermedio {
@@ -553,7 +689,7 @@ footer .sitio {
         padding: 0 0.3rem;
     }
 
-    #Estadio .estadio {
+    #estadio .estadiosiglo {
         width: 259px;
         height: 150px;
     }

@@ -24,46 +24,46 @@
 
 
 @media screen and (max-width: 895px) {
-    .peñarol2024{
+    .peñarol2024 {
         .jugadores2024 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
 
-        .plantel2024 {
-            text-align: center;
+            .plantel2024 {
+                text-align: center;
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
         }
-    }
 
     }
-    
 
-    .peñarol2011{
+
+    .peñarol2011 {
         .jugadores2011 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
 
 
-        .plantel2011 {
-            text-align: center;
+            .plantel2011 {
+                text-align: center;
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
             }
-
         }
     }
 }
-}
 
-    
+
 
 @media (max-width: 860px) {
     .intermedio {
@@ -131,44 +131,45 @@
             height: 250px;
         }
     }
+
     .peñarol2024 {
         .jugadores2024 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
 
-        .plantel2024 {
-            text-align: center;
+            .plantel2024 {
+                text-align: center;
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
         }
     }
-    }
 
-    .peñarol2011{
+    .peñarol2011 {
         .jugadores2011 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-        grid-auto-rows: auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-auto-rows: auto;
 
-        .plantel2011 {
-            text-align: center;
+            .plantel2011 {
+                text-align: center;
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
             }
-
         }
     }
-}
 
 }
-    
+
 
 
 
@@ -240,52 +241,66 @@
         }
     }
 
-    .peñarol2024{
+    .peñarol2024 {
         .jugadores2024 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        display: flex;
-        flex-direction: column;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            display: flex;
+            flex-direction: column;
 
-        .plantel2024 {
-            text-align: center;
+            .plantel2024 {
+                text-align: center;
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
             }
         }
-    }
 
     }
 
     .peñarol2011 {
         .jugadores2011 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        display: flex;
-        flex-direction: column;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            display: flex;
+            flex-direction: column;
 
 
-        .plantel2011 {
-            text-align: center;
+            .plantel2011 {
+                text-align: center;
 
-            img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+
             }
-
         }
     }
-}
+
+    #antonio article {
+        @include flex (flex, center,center);
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+
+    #dario article {
+        @include flex (flex, center, center);
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
 
 }
 
-    
 
-    
+
+
 
 
 
