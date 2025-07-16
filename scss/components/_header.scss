@@ -1,11 +1,14 @@
 .encabezados {
     h1 {
-        background-color: $color-primario;
+        background-color: $color-secundario;
         animation-name: titulo;
         animation-duration: 1s;
         animation-delay: 0;
+        text-align: center;
+        font-size: 50px;
+        font-family: Tagesschrift;
+        color: $color-primario;
     }
-
     .navegador {
         .navbar-brand {
             color: $color-secundario !important;
